@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6916" started-at="2019-03-07T10:14:26Z" finished-at="2019-03-07T10:14:33Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6916" started-at="2019-03-07T10:14:26Z" finished-at="2019-03-07T10:14:33Z">
+      <class name="TestFramework.Login">
+        <test-method status="PASS" signature="loginfake()[pri:0, instance:TestFramework.Login@6615435c]" name="loginfake" duration-ms="40" started-at="2019-03-07T10:14:33Z" finished-at="2019-03-07T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfake -->
+      </class> <!-- TestFramework.Login -->
+      <class name="TestFramework.GetUnit">
+        <test-method status="PASS" signature="getNoUnit()[pri:0, instance:TestFramework.GetUnit@15975490]" name="getNoUnit" duration-ms="447" started-at="2019-03-07T10:14:31Z" finished-at="2019-03-07T10:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNoUnit -->
+        <test-method status="PASS" signature="getUnit()[pri:0, instance:TestFramework.GetUnit@15975490]" name="getUnit" duration-ms="556" started-at="2019-03-07T10:14:31Z" finished-at="2019-03-07T10:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUnit -->
+        <test-method status="PASS" signature="getfakeUnit()[pri:0, instance:TestFramework.GetUnit@15975490]" name="getfakeUnit" duration-ms="610" started-at="2019-03-07T10:14:32Z" finished-at="2019-03-07T10:14:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getfakeUnit -->
+      </class> <!-- TestFramework.GetUnit -->
+      <class name="TestFramework.BookUnit">
+        <test-method status="PASS" signature="bookNotUnit()[pri:0, instance:TestFramework.BookUnit@47f6473]" name="bookNotUnit" duration-ms="3346" started-at="2019-03-07T10:14:26Z" finished-at="2019-03-07T10:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookNotUnit -->
+        <test-method status="PASS" signature="bookUnit()[pri:0, instance:TestFramework.BookUnit@47f6473]" name="bookUnit" duration-ms="545" started-at="2019-03-07T10:14:30Z" finished-at="2019-03-07T10:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookUnit -->
+        <test-method status="PASS" signature="noUnit()[pri:0, instance:TestFramework.BookUnit@47f6473]" name="noUnit" duration-ms="559" started-at="2019-03-07T10:14:30Z" finished-at="2019-03-07T10:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noUnit -->
+      </class> <!-- TestFramework.BookUnit -->
+      <class name="TestFramework.RefreshToken">
+        <test-method status="PASS" signature="refreshToken()[pri:0, instance:TestFramework.RefreshToken@1936f0f5]" name="refreshToken" duration-ms="411" started-at="2019-03-07T10:14:33Z" finished-at="2019-03-07T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshToken -->
+      </class> <!-- TestFramework.RefreshToken -->
+      <class name="TestFramework.ListUnits">
+        <test-method status="PASS" signature="listUnits()[pri:0, instance:TestFramework.ListUnits@6b143ee9]" name="listUnits" duration-ms="328" started-at="2019-03-07T10:14:32Z" finished-at="2019-03-07T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUnits -->
+        <test-method status="PASS" signature="listUnitsNoAuth()[pri:0, instance:TestFramework.ListUnits@6b143ee9]" name="listUnitsNoAuth" duration-ms="40" started-at="2019-03-07T10:14:33Z" finished-at="2019-03-07T10:14:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUnitsNoAuth -->
+      </class> <!-- TestFramework.ListUnits -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
