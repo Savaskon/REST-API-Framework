@@ -6,4 +6,5 @@
 - The Project is built on Maven. To run the project use the pom.xml file --> run maven test. 
      - Testframework: TestNG
 - Html repots are generated under the target folder/surefire reports
-- The project can easily integrated with CI tools for example :Jenkins. 
+- The project can easily integrated with Jenkins. Place the project folder under jenkins directory, create a new project and configure
+directory path and maven path. 
