@@ -8,3 +8,4 @@
 - Html repots are generated under the target folder/surefire reports
 - The project can easily integrated with Jenkins. Place the project folder under jenkins directory, create a new project and configure
 directory path and maven path. 
+***Please note: To run the test you need to comment out the Pxoxy settings. ////RestAssured.proxy("bcpxy.nycnet",8080);
